@@ -1,0 +1,43 @@
+{
+  "image": "input/kitchen.jpg",
+  "model": "yolo26n-seg.pt",
+  "conf": 0.5,
+  "imgsz": 640,
+  "device": "cpu",
+  "boxes": [
+    {
+      "id": 0,
+      "class": "chair",
+      "class_id": 56,
+      "conf": 0.7131,
+      "xyxy": [
+        0.6,
+        838.4,
+        575.0,
+        1511.5
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.50/masks/00_chair.png",
+      "mask_area_px": 249794,
+      "box_area_px": 386629,
+      "background_in_box_ratio": 0.354,
+      "mask_reload_same": true
+    },
+    {
+      "id": 1,
+      "class": "microwave",
+      "class_id": 68,
+      "conf": 0.6713,
+      "xyxy": [
+        831.5,
+        246.6,
+        1076.3,
+        378.2
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.50/masks/01_microwave.png",
+      "mask_area_px": 30990,
+      "box_area_px": 32216,
+      "background_in_box_ratio": 0.038,
+      "mask_reload_same": true
+    }
+  ]
+}

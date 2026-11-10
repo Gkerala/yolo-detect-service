@@ -1,0 +1,94 @@
+{
+  "image": "input/bus.jpg",
+  "model": "yolo26n-seg.pt",
+  "conf": 0.5,
+  "imgsz": 640,
+  "device": "cpu",
+  "boxes": [
+    {
+      "id": 0,
+      "class": "person",
+      "class_id": 0,
+      "conf": 0.877,
+      "xyxy": [
+        52.8,
+        396.7,
+        243.4,
+        905.9
+      ],
+      "mask_file": "outputs/yolo/bus/conf0.50/masks/00_person.png",
+      "mask_area_px": 48808,
+      "box_area_px": 97054,
+      "background_in_box_ratio": 0.497,
+      "mask_reload_same": true
+    },
+    {
+      "id": 1,
+      "class": "person",
+      "class_id": 0,
+      "conf": 0.8632,
+      "xyxy": [
+        669.2,
+        396.2,
+        809.9,
+        880.3
+      ],
+      "mask_file": "outputs/yolo/bus/conf0.50/masks/01_person.png",
+      "mask_area_px": 21027,
+      "box_area_px": 68113,
+      "background_in_box_ratio": 0.691,
+      "mask_reload_same": true
+    },
+    {
+      "id": 2,
+      "class": "bus",
+      "class_id": 5,
+      "conf": 0.8555,
+      "xyxy": [
+        4.8,
+        228.5,
+        806.6,
+        740.2
+      ],
+      "mask_file": "outputs/yolo/bus/conf0.50/masks/02_bus.png",
+      "mask_area_px": 254626,
+      "box_area_px": 410281,
+      "background_in_box_ratio": 0.379,
+      "mask_reload_same": true
+    },
+    {
+      "id": 3,
+      "class": "person",
+      "class_id": 0,
+      "conf": 0.8106,
+      "xyxy": [
+        221.1,
+        405.4,
+        344.5,
+        859.4
+      ],
+      "mask_file": "outputs/yolo/bus/conf0.50/masks/03_person.png",
+      "mask_area_px": 33080,
+      "box_area_px": 56024,
+      "background_in_box_ratio": 0.41,
+      "mask_reload_same": true
+    },
+    {
+      "id": 4,
+      "class": "person",
+      "class_id": 0,
+      "conf": 0.6484,
+      "xyxy": [
+        0.5,
+        550.4,
+        74.1,
+        872.2
+      ],
+      "mask_file": "outputs/yolo/bus/conf0.50/masks/04_person.png",
+      "mask_area_px": 10671,
+      "box_area_px": 23684,
+      "background_in_box_ratio": 0.549,
+      "mask_reload_same": true
+    }
+  ]
+}

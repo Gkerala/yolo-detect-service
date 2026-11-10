@@ -1,0 +1,10 @@
+{
+  "bus.jpg": {
+    "source": "https://ultralytics.com/images/bus.jpg",
+    "license": "Ultralytics 공식 예제 이미지. 4장 노트북이 과제 입력으로 지정한 사진"
+  },
+  "kitchen.jpg": {
+    "source": "본인이 직접 찍은 사진(2019-01, 숙소 부엌). 공개용으로 EXIF를 지우고 2016×1512로 줄인 사본",
+    "license": "본인 촬영, 이 과제 저장소에 공개하는 데 동의"
+  }
+}

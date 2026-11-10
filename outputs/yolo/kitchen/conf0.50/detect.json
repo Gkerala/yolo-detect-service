@@ -1,0 +1,45 @@
+{
+  "image": "input/kitchen.jpg",
+  "model": "yolo26n.pt",
+  "conf": 0.5,
+  "imgsz": 640,
+  "device": "cpu",
+  "boxes": [
+    {
+      "id": 0,
+      "class": "cell phone",
+      "class_id": 67,
+      "conf": 0.6841,
+      "xyxy": [
+        1292.3,
+        852.7,
+        1411.0,
+        915.3
+      ]
+    },
+    {
+      "id": 1,
+      "class": "chair",
+      "class_id": 56,
+      "conf": 0.6417,
+      "xyxy": [
+        0.1,
+        842.6,
+        570.8,
+        1509.6
+      ]
+    },
+    {
+      "id": 2,
+      "class": "potted plant",
+      "class_id": 58,
+      "conf": 0.5757,
+      "xyxy": [
+        4.9,
+        0.0,
+        488.0,
+        887.3
+      ]
+    }
+  ]
+}

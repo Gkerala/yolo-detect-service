@@ -1,0 +1,16 @@
+{
+  "detect": {
+    "low": 0.25,
+    "high": 0.5,
+    "count_low": 5,
+    "count_high": 5,
+    "disappeared": []
+  },
+  "segment": {
+    "low": 0.25,
+    "high": 0.5,
+    "count_low": 5,
+    "count_high": 5,
+    "disappeared": []
+  }
+}

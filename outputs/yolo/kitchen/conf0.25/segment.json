@@ -1,0 +1,128 @@
+{
+  "image": "input/kitchen.jpg",
+  "model": "yolo26n-seg.pt",
+  "conf": 0.25,
+  "imgsz": 640,
+  "device": "cpu",
+  "boxes": [
+    {
+      "id": 0,
+      "class": "chair",
+      "class_id": 56,
+      "conf": 0.7131,
+      "xyxy": [
+        0.6,
+        838.4,
+        575.0,
+        1511.5
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.25/masks/00_chair.png",
+      "mask_area_px": 249794,
+      "box_area_px": 386629,
+      "background_in_box_ratio": 0.354,
+      "mask_reload_same": true
+    },
+    {
+      "id": 1,
+      "class": "microwave",
+      "class_id": 68,
+      "conf": 0.6713,
+      "xyxy": [
+        831.5,
+        246.6,
+        1076.3,
+        378.2
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.25/masks/01_microwave.png",
+      "mask_area_px": 30990,
+      "box_area_px": 32216,
+      "background_in_box_ratio": 0.038,
+      "mask_reload_same": true
+    },
+    {
+      "id": 2,
+      "class": "bottle",
+      "class_id": 39,
+      "conf": 0.4959,
+      "xyxy": [
+        1268.8,
+        663.0,
+        1324.9,
+        761.1
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.25/masks/02_bottle.png",
+      "mask_area_px": 4375,
+      "box_area_px": 5503,
+      "background_in_box_ratio": 0.205,
+      "mask_reload_same": true
+    },
+    {
+      "id": 3,
+      "class": "potted plant",
+      "class_id": 58,
+      "conf": 0.4125,
+      "xyxy": [
+        16.0,
+        177.7,
+        518.3,
+        871.6
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.25/masks/03_potted_plant.png",
+      "mask_area_px": 127809,
+      "box_area_px": 348546,
+      "background_in_box_ratio": 0.633,
+      "mask_reload_same": true
+    },
+    {
+      "id": 4,
+      "class": "refrigerator",
+      "class_id": 72,
+      "conf": 0.2762,
+      "xyxy": [
+        811.0,
+        354.0,
+        1086.0,
+        620.7
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.25/masks/04_refrigerator.png",
+      "mask_area_px": 64541,
+      "box_area_px": 73343,
+      "background_in_box_ratio": 0.12,
+      "mask_reload_same": true
+    },
+    {
+      "id": 5,
+      "class": "cell phone",
+      "class_id": 67,
+      "conf": 0.2675,
+      "xyxy": [
+        1293.0,
+        853.1,
+        1409.6,
+        913.8
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.25/masks/05_cell_phone.png",
+      "mask_area_px": 6102,
+      "box_area_px": 7078,
+      "background_in_box_ratio": 0.138,
+      "mask_reload_same": true
+    },
+    {
+      "id": 6,
+      "class": "cell phone",
+      "class_id": 67,
+      "conf": 0.2616,
+      "xyxy": [
+        1142.3,
+        823.9,
+        1230.3,
+        895.1
+      ],
+      "mask_file": "outputs/yolo/kitchen/conf0.25/masks/06_cell_phone.png",
+      "mask_area_px": 4538,
+      "box_area_px": 6266,
+      "background_in_box_ratio": 0.276,
+      "mask_reload_same": true
+    }
+  ]
+}

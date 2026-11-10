@@ -1,0 +1,105 @@
+{
+  "image": "input/kitchen.jpg",
+  "model": "yolo26n.pt",
+  "conf": 0.25,
+  "imgsz": 640,
+  "device": "cpu",
+  "boxes": [
+    {
+      "id": 0,
+      "class": "cell phone",
+      "class_id": 67,
+      "conf": 0.6841,
+      "xyxy": [
+        1292.3,
+        852.7,
+        1411.0,
+        915.3
+      ]
+    },
+    {
+      "id": 1,
+      "class": "chair",
+      "class_id": 56,
+      "conf": 0.6417,
+      "xyxy": [
+        0.1,
+        842.6,
+        570.8,
+        1509.6
+      ]
+    },
+    {
+      "id": 2,
+      "class": "potted plant",
+      "class_id": 58,
+      "conf": 0.5757,
+      "xyxy": [
+        4.9,
+        0.0,
+        488.0,
+        887.3
+      ]
+    },
+    {
+      "id": 3,
+      "class": "cell phone",
+      "class_id": 67,
+      "conf": 0.4483,
+      "xyxy": [
+        1142.9,
+        825.5,
+        1235.8,
+        892.8
+      ]
+    },
+    {
+      "id": 4,
+      "class": "bottle",
+      "class_id": 39,
+      "conf": 0.4087,
+      "xyxy": [
+        1268.8,
+        670.5,
+        1322.9,
+        769.3
+      ]
+    },
+    {
+      "id": 5,
+      "class": "microwave",
+      "class_id": 68,
+      "conf": 0.3866,
+      "xyxy": [
+        833.7,
+        250.1,
+        1072.1,
+        371.2
+      ]
+    },
+    {
+      "id": 6,
+      "class": "cup",
+      "class_id": 41,
+      "conf": 0.3846,
+      "xyxy": [
+        571.6,
+        553.4,
+        649.4,
+        710.1
+      ]
+    },
+    {
+      "id": 7,
+      "class": "book",
+      "class_id": 73,
+      "conf": 0.3367,
+      "xyxy": [
+        778.3,
+        714.6,
+        1137.9,
+        872.6
+      ]
+    }
+  ]
+}
